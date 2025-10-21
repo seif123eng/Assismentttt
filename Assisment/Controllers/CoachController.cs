@@ -24,7 +24,7 @@ namespace Assisment.Controllers
             var grouprd = coaches.GroupBy(x => x.Specialization);
             return Ok(grouprd);
         }
-
+        //test 
         [HttpGet("{id}")]
         public async Task<ActionResult> GetAllById(int id) 
         {
