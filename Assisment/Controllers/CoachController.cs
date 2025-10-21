@@ -25,6 +25,7 @@ namespace Assisment.Controllers
             return Ok(grouprd);
         }
         //test 
+        // test pull
         [HttpGet("{id}")]
         public async Task<ActionResult> GetAllById(int id) 
         {
